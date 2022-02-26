@@ -1,0 +1,96 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(img/image12.jpg);
+}
+
+.container-fluid {
+  padding: 6% 7%;
+}
+
+/*------HOMEPAGE----------*/
+/*-------- Navigation bar style -------*/
+.navbar {
+  background-color: #f0f0f0;
+  border-radius: 0 0 30px 30px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+/*-----hidden add petition form on index page-----*/
+.addPetitionForm {
+  display: none;
+}
+
+/*-------- Carousel section--------*>
+/*---- carousel arrow  style ----*/
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/*------carousel-box/------*/
+.pa {
+  /*to move the arrows away from the content*/
+  padding: 0 5%;
+  background-color: #f0f0f0;
+}
+
+/*----- news section -----*/
+.news-box {
+  padding: 2%;
+  background-color: #f0f0f0;
+}
+
+
+/*----------PETITION PAGE --------*/
+.p-section {
+  margin: 5%;
+}
+
+.search-bar {
+  margin: 8%;
+}
+
+.single-petition {
+  padding: 4%;
+  margin-bottom: 3%;
+  border: 1px solid #f0f0f0;
+}
+
+
+
+/*------pagination style ------*/
+.page-item a {
+  color: black;
+}
+
+.page-item a:hover {
+  color: black;
+}
+
+
+/*--------signup and login forms-----*/
+
+.form-style {
+  border: 1px solid #f0f0f0;
+  padding: 5%;
+  text-align: center;
+}
+
+
+
+
+/*--------FOOTER SECTION--------*/
+
+#footer {
+  background-color: #f0f0f0;
+
+}
+
+@media only screen and (max-width: 600px) {
+  #search {
+    margin-top: 20px;
+  }
+}
